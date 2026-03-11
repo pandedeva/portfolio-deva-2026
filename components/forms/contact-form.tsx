@@ -59,24 +59,17 @@ export function ContactForm() {
       if (response.ok) {
         form.reset();
 
-        storeModal.onOpen({
-          title: "Thankyou!",
-          description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
-          icon: Icons.successAnimated,
-        });
+        setTimeout(() => {
+          storeModal.onOpen({
+            title: "Thankyou!",
+            description:
+              "Your message has been received! I appreciate your contact and will get back to you shortly.",
+            icon: Icons.successAnimated,
+          });
+        }, 0);
       } else {
         alert("Something went wrong. Please try again.");
       }
-
-      // if (response.status === 200) {
-      //   storeModal.onOpen({
-      //     title: "Thankyou!",
-      //     description:
-      //       "Your message has been received! I appreciate your contact and will get back to you shortly.",
-      //     icon: Icons.successAnimated,
-      //   });
-      // }
     } catch (err) {
       console.log("Err!", err);
     }
