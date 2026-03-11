@@ -1,0 +1,30 @@
+export const siteConfig = {
+  name: "Pande Deva - Frontend Engineer",
+  authorName: "Pande Deva",
+  username: "pandedeva",
+  description:
+    "Pande Deva - Frontend Engineer specializing in React & Next.js. Building fast, accessible, and production-ready web applications from Bali with TypeScript, Tailwind, and React Query.",
+  url: "https://deva-portfolio-2026.vercel.app",
+  links: {
+    twitter: "https://x.com/k1llopps",
+    github: "https://github.com/pandedeva",
+  },
+  ogImage: "https://picsum.photos/id/1015/1200/630",
+  iconIco: "/favicon.ico",
+  logoIcon: "/next.svg",
+  keywords: [
+    "Pande Deva",
+    "Frontend Engineer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript",
+    "Tailwind CSS",
+    "React Query",
+    "Frontend Developer Bali",
+    "Frontend Developer Indonesia",
+    "Web Developer Jakarta",
+    "Portfolio Developer",
+    "React Portfolio",
+    "Next.js Portfolio",
+  ],
+};
